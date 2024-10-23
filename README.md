@@ -40,8 +40,8 @@ This is a **Personal Expense Tracker API** built with SQLite. It helps users man
 
 ### User Authentication
 
-- `POST /register`: Register a new user.
-- `POST /login`: Authenticate user and get a token.
+- `POST api/v1/auth/register`: Register a new user.
+- `POST api/v1/auth/login`: Authenticate user and get a token.
 
 ### Expense Management
 
